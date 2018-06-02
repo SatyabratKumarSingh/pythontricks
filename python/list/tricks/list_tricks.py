@@ -63,3 +63,11 @@ for x in [n for n in nums if n <= 10]:
 names_list = ['Satyabrat', 'Ravishekher', 'Amit', 'Jonathan', 'XYZ']
 for name in [single_name for single_name in names_list if 'y' in single_name.lower()]:
    print(name)
+
+# *** Delete elements from a list
+a_big_list = [12, 25, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+del a_big_list[-2:] # Delete last 2 elements
+print a_big_list
+
+del a_big_list[:2] # Delete first 2 elements
+print a_big_list
